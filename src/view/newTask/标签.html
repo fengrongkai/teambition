@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="./../../assets/css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="./../../assets/font-icon/iconfont.css" />
+		<style>
+			.fl{
+				float:left;
+			}
+			.fr{
+				float: right;
+			}
+			.clearfix:after {
+				  content: " ";
+				  display: block;
+				  clear: both;
+				  height: 0;
+				}
+				.clearfix {
+				  zoom: 1;
+				}
+		   body{
+		   	height:800px;
+		   	background: yellow;
+		   	margin:100px 100px;
+		   }
+		   .biaoqian{
+		   	background: #fff;
+		   	width:186px;
+		   	padding:12px 0 0 0px;
+		   	box-shadow: 5px 5px 5px #d9d9d9;
+		   	position:absolute;
+		  	top:0;
+		  	left:0;
+		   }
+		   .biaoqian1{
+		   	width:125px;
+		   }
+		   .biaoqian2{
+		   	margin-right: 16px;
+		   	color:#3da8f5;
+		   }
+		   .biaoqian0{
+		   	height:35px;
+		   	border-bottom: 1px solid #eeeeee;
+		   	padding-left: 16px;
+		   }
+		   .biaoqian3{
+		   	max-height: 200px;
+		   	overflow:auto;
+		   	color:#8b8b8b;
+		   	padding-left: 16px;
+		   }
+		   .biaoqian4{
+		   	 height:34px;
+		   	 font:12px/34px "微软雅黑";
+		   }
+		   .biaoqian5{
+		   	width:6px;
+		   	height: 6px;
+		   	background:#3da8f5;
+		   	border-radius: 6px;
+		   	margin-top:14px;
+		   	margin-right: 10px;
+		   	}
+		   	.biaoqian7{
+		   		margin-right: 16px;
+		   	}
+		</style>
+	</head>
+	<body>
+		<div class="biaoqian">
+			<div class="clearfix biaoqian0">
+				<input type="text" placeholder="添加标签" class="biaoqian1 fl"/>
+				<input type="button" value="添加" class="biaoqian2 fr" />
+			</div>
+			<ul class="biaoqian3">
+				<li class="biaoqian4">
+					<em class="biaoqian5 fl"></em>
+					<b class="biaoqian6 fl">标签一</b>
+					<span  class="biaoqian7 fr">
+						<i class="icon iconfont icon-iconduigou01"></i>
+					</span>
+				</li>
+			</ul>
+		</div>
+	</body>
+</html>

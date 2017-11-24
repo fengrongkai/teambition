@@ -1,0 +1,27 @@
+.item-title h2,.item-title .icon-xiala{
+	height:48px;
+	font:15px/48px "微软雅黑";
+	padding-left:20px;
+	font-weight: bold;
+}
+.item-title .icon-xiala{
+	margin-right:18px;
+	font-size:16px;
+	color:#939393;
+	
+}
+.item-title .icon-xiala:hover{
+	color:#3DA8F5;
+	
+}
+.wrap .addTask{
+	height:48px;
+	background:#eeeeee;
+}
+.addTask span{
+	line-height:48px;	
+}
+.item{
+	position:absolute;
+}
+

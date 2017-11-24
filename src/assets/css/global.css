@@ -1,0 +1,218 @@
+/* CSS Document */
+/*------------project----------*/
+.project{
+    width: 100%;
+    height: 48px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #dfdfdf;
+    position:fixed;
+    top:0;
+}
+.header{
+	position: fixed;
+	top:50px;
+}
+.project i:hover{
+    color: #5bc1ef
+}
+
+.project .pro-left{
+    float: left;
+    width: 700px;
+    height: 100%;
+    line-height: 48px;
+}
+
+.pro-left .iconfont{
+    padding: 0 20px 0 25px;
+    color: #d6d6d6;
+}
+
+.pro-left p{
+    display: inline;
+    -font-size: 22px;
+}
+
+.pro-left .search{
+    display: inline-block;
+    width: 410px;
+    height: 30px;
+    line-height: 30px;
+    background: #fafafa;
+    border: 1px solid #eee;
+    border-radius: 40px;
+    margin-left: 20px;
+}
+
+.search input{
+    color: #e9e9e9;;
+}
+
+.search .search-icon{
+    float: left;
+    color: #cfcfcf;
+}
+
+.pro-left .icon-iconmianxingshujutianjia{
+    color: #3da8f5;
+    font-size: 24px;
+}
+
+.project .pro-right{
+    float: right;
+   width: 390px;
+    height: 100%;
+    line-height: 48px;
+    
+}
+
+.pro-right i{
+    float: left;
+    padding: 0 20px;
+}
+
+.pro-right .icon-yiwen{
+    color: #cccccc;
+}
+
+.project .iconfont{
+    font-size: 24px;
+}
+
+.icon-line{
+    float: left;
+    width: 2px;
+    height: 22px;
+    line-height: 22px;
+    background: #e5e5e5;
+    margin-top: 13px;
+}
+
+.user-info a{
+    float: right;
+    width: 28px;
+    height: 28px;
+    background:#5bc1ef;
+    border-radius: 50%;
+    margin: 10px 10px 0 0;
+    line-height: 28px;
+    text-align: center;
+}
+
+.user-info .user-name{
+    color: #fff;
+    text-align: center;
+}
+
+/* -------------header---------- */
+.header{
+    width: 100%;
+    height: 48px;
+    background: #f5f5f5;
+    border-bottom: 1px solid #d9d9d9;
+}
+
+.header .home-page{
+    float: left;
+    width: 270px;
+    height: 100%;
+    line-height: 48px;
+    padding: 0 100px 0 22px;
+}
+
+.home-page .icon-xing{
+    color: #a6a6a6;
+    padding: 0 20px;
+}
+
+.header .nav{
+    float: left;
+}
+
+.nav li{
+    float: left;
+    padding: 0 30px;
+}
+
+.nav a{
+    display: inline-block;
+    padding: 18px 0 13px 0;
+}
+
+.active{
+    border-bottom: 3px solid #5bc1ef;
+}
+
+.nav a:hover{
+    border-bottom: 3px solid #5bc1ef;
+}
+
+.header .nav-footer{
+    float: right;
+    line-height: 48px;
+    color: #9f9f9f;
+}
+
+.nav-footer i, .nav-footer span{
+    float: left;
+}
+
+.nav-footer i{
+    font-size: 24px;
+}
+
+.nav-footer em{
+    margin: 13px 21px 22px 0;
+}
+
+.nav-footer span{
+    padding: 0 10px 22px;
+}
+.home-page{
+	font-size:16px;
+}
+.home-page .icon-chevron-tiny-down{
+	font:24px/48px "微软雅黑";
+	float:left;
+}
+.home-page .icon-i{
+	font:24px/48px "微软雅黑";
+}
+
+/*document,body{
+	overflow-y:hidden;
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------header----------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------footer----------*/

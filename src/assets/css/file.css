@@ -1,0 +1,176 @@
+.wrap .content2{
+    width: 100%;
+    -height: 492px;
+    background: #f5f5f5;
+    overflow: hidden;
+    margin-top:20px;
+    position: relative;
+    top:80px;
+}
+
+.file{
+    width: 1100px;
+    height: 440px;
+    background: #fff;
+    margin: 20px auto;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.file .ku{
+    width: 100%;
+    height: 55px;
+    margin-left: 15px;
+    overflow: hidden;
+}
+
+.ku p{
+    float: left;
+    line-height: 55px;
+}
+
+.ku .ku-right{
+    float: right;
+}
+
+.ku-right a{
+    float: left;
+    padding: 17px 18px 0 12px;
+    color: #3da8f5;
+}
+
+.ku-right .iconfont{
+    float: left;
+    font-size: 22px;
+    padding-right: 8px;
+    margin-top: -2px;
+}
+
+.ku-right span{
+    display: inline-block;
+    font-size: 12px;
+}
+
+.ku-right .upload:hover{
+    color: #3da8f5
+}
+
+.file .file-name{
+    width: 100%;
+    height: 55px;
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.check-box{
+    float: left;
+    width: 16px;
+    height: 16px;
+    border: 2px solid #a6a6a6;
+    border-radius: 3px;
+    margin: 18px 40px 0 5px;
+    cursor: pointer;
+    margin-left: 15px;
+}
+
+.check-box:hover{
+    border: 2px solid #808080;
+}
+
+.file-info{
+    line-height: 55px;
+    color: #808080;
+}
+
+.file-info a:hover{
+    color: #3da8f5;
+}
+
+.file-info .size{
+    margin: 0 70px 0 475px;
+}
+
+.file-info .update-time{
+    margin-left: 105px;
+}
+
+.file-info .pattern{
+    float: right;
+    padding-right: 15px;
+}
+
+.pattern .icon-caidan{
+    font-size: 26px;
+    float: left;
+    padding-right: 15px;
+}
+
+.pattern-active{
+    color: #3da8f5;
+}
+
+.file .create-file{
+    width: 100%;
+    height: 328px;
+}
+
+.file-item{
+    height: 56px;
+    cursor: pointer;
+}
+
+.file-item:hover{
+    background: #eee;
+}
+
+.file-item .item-content{
+    float: right;
+    width: 1020px;
+    height: 56px;
+    border-bottom: 1px solid #f5f5f5;
+    cursor: pointer;
+}
+
+.item-content li{
+    float: left;
+    line-height: 56px;
+    width: 510px;
+}
+
+.item-left .icon-wenjianjia{
+    color: #3da8f5;
+    font-size: 28px;
+    margin-right: 10px;
+}
+
+.item-left input{
+    width: 450px;
+    height: 24px;
+    margin-top: -8px;
+    font-size: 16px;
+    font-family: "微软雅黑";
+    cursor: pointer;
+}
+
+.item-right{
+    color: #808387;
+}
+
+.item-right em{
+    float: left;
+    width: 105px;
+    height: 100%;
+}
+
+.item-right strong{
+    float: left;
+    width: 160px;
+    height: 100%;
+    
+}
+
+.item-right mark{
+    float: left;
+
+}
+
